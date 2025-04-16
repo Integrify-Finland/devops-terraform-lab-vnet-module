@@ -28,7 +28,7 @@ module "vnet" {
 
 module "subnets" {
 
-  source = "../Azure/azurem_subnets"
+  source = "../Azure/azurerm_subnets"
 
   for_each = local.subnet
 
